@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+  .eachHistoryItem-prop {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+  }
+
+  .inner-cont-prop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vw;
+    column-gap: 50px;
+  }
+
+  .logo-prop {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .eachHistoryItem-prop {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+  }
+  .p1-prop {
+    font-size: 10px;
+  }
+  .inner-cont-prop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60vw;
+    column-gap: 10px;
+  }
+
+  .logo-prop {
+    height: 15px;
+  }
+
+  .t-prop {
+    font-size: 10px;
+  }
+  .d-prop {
+    font-size: 10px;
+  }
+}
+
+.button-prop {
+  background-color: transparent;
+  border-style: none;
+}
